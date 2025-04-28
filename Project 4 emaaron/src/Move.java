@@ -3,9 +3,9 @@ import java.util.*;
 public class Move {
 
   //move data
-  ArrayList<String> names = new ArrayList<String>(Arrays.asList("Bash", "Fireball", "Water Spell", "Earthquake", "Draco Meteor"));
-  String[] types = {"singleAttack", "defenseReduction", "attackReduction", "singleAttack", "singleAttack"};
-  int[] scaleFactors = {10, 3, 5, 20, 50}; //defined as scale factor instead of damage so we don't need a seperate one for skills
+  ArrayList<String> names = new ArrayList<String>(Arrays.asList("Bash", "Fireball", "Water Spell", "Earthquake", "Draco Meteor", "Sit"));
+  String[] types = {"singleAttack", "defenseReduction", "attackReduction", "singleAttack", "singleAttack", "singleAttack"};
+  int[] scaleFactors = {10, 3, 5, 20, 50, 0}; //defined as scale factor instead of damage so we don't need a seperate one for skills
   
   //make extra sure to keep the stats in order or it will explode
 

@@ -78,7 +78,7 @@ public class Character {
   }
 
   public void getMoves() {
-    System.out.println(this.move1.name + this.move2.name + this.move3.name + this.move4.name);
+    System.out.println("0. " + moves.get(0).getName() + "\n1. " + moves.get(1).getName() + "\n2. " + moves.get(2).getName() + "\n3. " + moves.get(3).getName());
   }
 
   public int getLevel() { //gets character level
